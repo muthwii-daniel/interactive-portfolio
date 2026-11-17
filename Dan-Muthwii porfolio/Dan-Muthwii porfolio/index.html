@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dan Muthwii | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Dan Muthwii</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="projects.html">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="welcome">Welcome to my website!</h1>
+    <hr class="top-rule">
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="content-box">
+        <p>My name is Dan Muthwii. I am an Information Technology student at Kirinyaga University, learning to build useful websites and digital solutions using HTML, CSS, JavaScript, C , SQL and the like.</p>
+        <p>I am also interested in graphic design ,video creation and editing.</p>
+      </div>
+    </section>
+
+    <h1 class="welcome second-welcome">Welcome to my website!</h1>
+
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <div class="content-box">
+        <ul>
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>C programming</li><li>SQL and databases</li><li>Basic graphic design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>My Projects</h2>
+      <div class="content-box">
+        <p>Explore my learning projects, website designs, database exercises, and creative media work.</p>
+      </div>
+      <a class="button" href="projects.html">View My Projects</a>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <div class="contact-line">Email: <a href="mailto:your-email@example.com">muthwiidaniel000@gmail.com</a></div>
+      <div class="contact-line">Phone: <a href="tel:+254700000000">+254 758 963 033</a></div>
+      <a class="button email-button" href="mailto:your-email@example.com">Send Me an Email</a>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number">
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Your Message" rows="6" required></textarea>
+        <button class="button" type="submit">Send Message</button>
+        <p class="form-note" id="formNote">This demo form does not send messages yet. Use the email button above or connect a form service.</p>
+      </form>
+      <div class="small-actions">
+        <button class="button" id="helloButton" type="button">Click Me</button>
+        <button class="button reset-button" id="resetButton" type="button">Reset</button>
+      </div>
+      <p id="helloMessage" class="hello-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Dan Muthwii. All rights reserved.</p><p>Built with HTML, CSS and JavaScript </p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
